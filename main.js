@@ -69,3 +69,7 @@ Vuec.component('product', {
         }
     }
 })
+
+var app = new Vue({
+    el: '#app'
+})
