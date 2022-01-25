@@ -1,4 +1,4 @@
-Vuec.component('product', {
+Vue.component('product', {
     template: `
         <div class="product">
             <div clas="product-image">
@@ -46,7 +46,7 @@ Vuec.component('product', {
             cart: 0
         }
     },
-    methodes: {
+    methods: {
         addToCart: function() {
             this.cart += 1;
         },
